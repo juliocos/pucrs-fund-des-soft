@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="container" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Bar.Business.AdminController">
+   <children>
+      <TableView fx:id="customerTable" layoutY="200.0" prefHeight="200.0" prefWidth="500.0" />
+      <TextField fx:id="search" layoutX="14.0" layoutY="164.0" prefHeight="25.0" prefWidth="578.0" promptText="00000000000" />
+      <Text layoutX="14.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar por CPF (Somente Digitos)" />
+      <Text layoutX="14.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total de Clientes:" />
+      <Text layoutX="14.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sócios:" />
+      <Text layoutX="14.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clientes Masculinos:" />
+      <Text layoutX="14.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clientes Femininos:" />
+      <Text fx:id="totalCustomers" layoutX="110.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="totalMembers" layoutX="56.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="totalMaleCustomers" layoutX="132.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="totalFemaleCustomers" layoutX="132.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  " />
+      <Text layoutX="11.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Relatórios">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
